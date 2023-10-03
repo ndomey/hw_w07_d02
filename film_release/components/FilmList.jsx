@@ -10,7 +10,7 @@ const FilmList = ({movies}) => {
     return (
         <>
         {storeMovieElements}
-        <p><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming release </a></p>
+        <p><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming release {">>"} </a></p>
         </>
     )
 }
